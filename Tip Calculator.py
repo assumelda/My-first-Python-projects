@@ -46,4 +46,22 @@ print(bmi)
 # print(int(bmi))
 
 #rounding off
-print(round(bmi))
+print(round(bmi))  
+
+#rounding off to decimal palces
+print(round(bmi, 2))
+
+# += for adding 
+# -= for subtracting
+# /= for dividing by
+# *= for multiplying by
+
+score=4
+height= 1.8
+winning=True
+
+score /=2
+print(score)
+
+#f string helps in putting different data types together
+print(f"your score is = {score}, your height is {height}m, and your winning is {winning}")
