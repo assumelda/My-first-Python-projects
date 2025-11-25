@@ -51,3 +51,12 @@ elif me==2:
         print("You lose. Computer Wins!")
     else:
         print("This is a tie")
+
+
+# # 2nd Method
+# if me == computer:
+#     print("It's a tie!")
+# elif (me == 0 and computer == 2) or (me == 1 and computer == 0) or (me == 2 and computer == 1):
+#     print("You win!")
+# else:
+#     print("You lose. Computer wins!")
